@@ -1,17 +1,13 @@
-# management_state
+Nama   : Husna Kamila Syahida<br>
+NIM    : 20230140238<br>
+Kelas  : A<br>
 
-A new Flutter project.
+# StateManagement Documentation
 
-## Getting Started
+<div align="center">
+  
+| **sebelum submit** | **setelah submit** |
+|:----------------------:|:----------------------:|
+|<img width="300" alt="image" src="https://github.com/user-attachments/assets/91cfca0f-7260-410a-9b08-18c23cf1d06e" />|<img width="300" alt="image" src="https://github.com/user-attachments/assets/37bee7c3-6f5a-45fc-b3b1-38e779448028" />|
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</div>
