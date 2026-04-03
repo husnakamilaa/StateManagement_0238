@@ -36,6 +36,14 @@ class _FormPageState extends State<FormPage> {
               ),
             ),
             SizedBox(height: 10),
+            TextField(
+              controller: emailController,
+              decoration: InputDecoration(
+                labelText: "Email",
+                border: OutlineInputBorder(),
+              ),
+            ),
+            SizedBox(height: 20),
             
           ],
         ),
