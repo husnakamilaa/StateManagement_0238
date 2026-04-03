@@ -27,7 +27,16 @@ class _FormPageState extends State<FormPage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          
+          children: [
+            TextField(
+              controller: namaController,
+              decoration: InputDecoration(
+                labelText: "Nama",
+                border: OutlineInputBorder(),
+              ),
+            ),
+            
+          ],
         ),
       ),
     );
