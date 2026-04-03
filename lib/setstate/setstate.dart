@@ -18,5 +18,18 @@ class _FormPageState extends State<FormPage> {
     });
   }
 
-  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Form Input"),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          
+        ),
+      ),
+    );
+  }
 }
