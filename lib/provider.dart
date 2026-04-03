@@ -39,4 +39,43 @@ class FormProvider extends ChangeNotifier {
 }
 
 //UI
+class FormPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final form = Provider.of<FormProvider>(context);
 
+    return Scaffold(
+      appBar: AppBar(title: Text("Form Provider")),
+      body: Padding(
+        padding: EdgeInsets.all(16),
+        child: Column(
+          children: [
+            TextField(
+              decoration: InputDecoration(labelText: "Nama"),
+              onChanged: form.setNama,
+            ),
+            TextField(
+              decoration: InputDecoration(labelText: "Email"),
+              onChanged: form.setEmail,
+            ),
+            SizedBox(height: 20),
+
+            ElevatedButton(
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  //SnackBar(content: Text("${form.nama} - ${form.email}")),
+                  SnackBar(content: Text("Submit sukses !")),
+                );
+              },
+              child: Text("Submit"),
+            ),
+            SizedBox(height: 10),
+
+            Text("Nama: ${form.nama}"),
+            Text("Email: ${form.email}"),
+          ],
+        ),
+      ),
+    );
+  }
+}
