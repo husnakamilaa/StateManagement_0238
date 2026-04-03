@@ -9,5 +9,7 @@ class _FormPageState extends State<FormPage> {
   final TextEditingController namaController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
 
+  String hasil = "";
+
   
 }
