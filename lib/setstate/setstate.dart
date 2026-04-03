@@ -49,7 +49,10 @@ class _FormPageState extends State<FormPage> {
               child: Text("Submit"),
             ),
             SizedBox(height: 20),
-            
+            Text(
+              hasil,
+              style: TextStyle(fontSize: 16),
+            ),
           ],
         ),
       ),
