@@ -8,3 +8,8 @@ class NamaChanged extends FormEvent {
   NamaChanged(this.nama);
 }
 
+class EmailChanged extends FormEvent {
+  final String email;
+  EmailChanged(this.email);
+}
+
